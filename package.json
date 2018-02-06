@@ -1,0 +1,22 @@
+{
+  "name": "mine-sweeper",
+  "version": "1.0.0",
+  "description": "a copy of the classic mind sweeper game",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoonTwo/mine-sweeper.git"
+  },
+  "author": "Danny Welstad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoonTwo/mine-sweeper/issues"
+  },
+  "homepage": "https://github.com/GoonTwo/mine-sweeper#readme"
+}

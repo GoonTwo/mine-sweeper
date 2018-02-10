@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+td {
+  vertical-align: top;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+.content {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-weight: bold;
+  height: 100%;
+}
+
+.inactive {
+  visibility: hidden;
+}
+
+.active {
+  transition: all 0.2s;
+  visibility: visible; 
+  background: rgba(0,0,0,0.2);
+}
+
+.game-over {
+  width: 100%;
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.winning-container {
+  background: green;
+}
+
+.losing-container {
+  background: rgba(255, 78, 78, 0.781);
+  color: black;
+}
+
+.options-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.mine {
+  background: red !important;
+}
+
+.no-mine {
+  background: rgba(0,0,0,0.2);
+}
+
+.flagged {
+  background: yellow;
+}

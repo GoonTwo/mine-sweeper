@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "a copy of the classic mind sweeper game",
   "main": "index.js",
+  "engines": {
+    "node": "8.4.0"
+  },
   "directories": {
     "test": "tests"
   },

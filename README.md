@@ -4,15 +4,15 @@ A simple implementation of the classic mindsweepr game using React and Node.
 
 to play: 
 
-single click to uncover a block or double click (i.e. menu click) to place a flag. 
+single click to uncover a block or two-finger click (i.e. menu click) to place a flag. 
 
 *Uncover all spots with no mines to win!*
 
 ## Features
 
 * Mine flagging (click with 2 fingers)
-* Timer (starts on first move)
-* Block animations (CSS trnasisitons)
+* Timer (starts board creation)
+* Block animations (CSS transisitons)
 * Three possible difficulties (number of mines and blocks increases)
   * Easy: 10x10 board - 7 mines
   * Medium: 15x15 board - 25 mines

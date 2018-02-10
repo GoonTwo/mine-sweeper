@@ -45,7 +45,7 @@ npm run build
 
 Start:
 ```sh
-npm run start:dev
+npm run start
 ```
 
 ## To Test
